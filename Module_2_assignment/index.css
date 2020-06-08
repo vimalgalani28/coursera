@@ -12,6 +12,7 @@ p {
 	margin-left: auto;
 	background-color: #afeeee;
 	border: 3px solid black;
+	text-align: left;
 }
 .row {
 	width: 100%;
