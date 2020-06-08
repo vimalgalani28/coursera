@@ -18,20 +18,25 @@ p {
 }
 section {
 	border : 1px solid green;
+	text-align: right;
+	font: 75%;
 }
 @media (min-width: 992px){
 	.desktop{
 		float: left;
 		width: 33.33%;
+		text-align: right;
 	}
 }
 @media (min-width: 768px) and (max-width: 991px){
 	.tablet{
 		float: left;
 		width: 50%;
+		text-align: right;
 	}
 	#section3 {
 		clear: left;
+		text-align: right;
 	}
 }
 }
