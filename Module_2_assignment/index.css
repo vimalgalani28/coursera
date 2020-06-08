@@ -5,6 +5,11 @@ h1 {
 	text-align: center;
 	color: red;
 }
+section {
+	border : 1px solid green;
+	text-align: right;
+	font: 75%;
+}
 p {
 	width: 90%;
 	height: 150px;
@@ -17,11 +22,7 @@ p {
 .row {
 	width: 100%;
 }
-section {
-	border : 1px solid green;
-	text-align: right;
-	font: 75%;
-}
+
 @media (min-width: 992px){
 	.desktop{
 		float: left;
