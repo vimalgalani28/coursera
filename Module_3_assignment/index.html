@@ -5,47 +5,48 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>I-code-with-you</title>
-  <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="style.css">
+  <title>Navbar-Menu</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <nav class="navbar navbar-light bg-light">
-    <a class="navbar-brand" href="index.html">
-      <img src="Images/logo.png" width="60" height="60" class="d-inline-block align-top"
-        alt="" loading="lazy">
-      <span id="logo">  Food, LLC </span>
+  <!-- Image and text -->
+  <nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html" id="logo">
+      Food, LLC
     </a>
-    <button class="navbar-toggler d-md-none" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    <button class="navbar-toggler d-sm-none" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#Chicken">Chicken <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#Beef">Beef</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#Sushi">Sushi</a>
-        </li>
-    </div>
   </nav>
+  <div class="collapse navbar-collapse d-sm-none" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#Chicken">Chicken</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Beef">Beef</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Sushi">Sushi</a>
+      </li>
+    </ul>
+  </div>
   <h1>Our Menu</h1>
-  <div class="row">
-    <section class="desktop tablet mobile" id="Chicken">
-      Chicken
+  <div class="container-fluid">
+    <div class="row">
+    <section class="col-md-12 col-lg-12 col-12 col-sm-12 desktop" id="Chicken">
       <p>
+        <span class="food d-flex justify-content-center">Chicken</span>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum architecto doloribus labore, quaerat ducimus
         nulla nostrum consectetur, nihil quidem, eos a quas. Atque facere voluptate quam deleniti eaque nemo debitis.
         Sint recusandae tempora deleniti sapiente laboriosam soluta maiores ex, ut mollitia nihil eaque neque, impedit
-        sunt ea necessitatibus repellat. Et porro iure excepturi, perspiciatis eligendi temporibus eveniet nostrum vero
+        sunt ea necessitatibus repellat. Et porro iure excepturi, perspiciatis eligendi temporibus eveniet nostrum
+        vero
         officiis.
         Similique sit beatae totam, nihil itaque quo vel earum animi nemo expedita quos sed voluptate quam eveniet
         excepturi officiis quas, necessitatibus iste a consequuntur temporibus quisquam praesentium tempora. Modi,
@@ -54,18 +55,34 @@
         velit optio soluta dolor enim sed eaque quia expedita, dolores temporibus sint repudiandae ad eius ullam odio.
         Nobis, odit voluptas. Maxime, magnam earum ipsum quae suscipit voluptatum, ea consectetur ut quod repudiandae
         velit aliquid voluptatibus blanditiis. At maiores corrupti voluptatem alias sapiente ipsa vero dignissimos
-        expedita veniam.</p>
+        expedita veniam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum architecto doloribus labore, quaerat ducimus
+        nulla nostrum consectetur, nihil quidem, eos a quas. Atque facere voluptate quam deleniti eaque nemo debitis.
+        Sint recusandae tempora deleniti sapiente laboriosam soluta maiores ex, ut mollitia nihil eaque neque, impedit
+        sunt ea necessitatibus repellat. Et porro iure excepturi, perspiciatis eligendi temporibus eveniet nostrum
+        vero
+        officiis.
+        Similique sit beatae totam, nihil itaque quo vel earum animi nemo expedita quos sed voluptate quam eveniet
+        excepturi officiis quas, necessitatibus iste a consequuntur temporibus quisquam praesentium tempora. Modi,
+        laboriosam.
+        Animi porro blanditiis consequuntur consectetur quos inventore optio. Laudantium aperiam libero vero? Impedit
+        velit optio soluta dolor enim sed eaque quia expedita, dolores temporibus sint repudiandae ad eius ullam odio.
+        Nobis, odit voluptas. Maxime, magnam earum ipsum quae suscipit voluptatum, ea consectetur ut quod repudiandae
+        velit aliquid voluptatibus blanditiis. At maiores corrupti voluptatem alias sapiente ipsa vero dignissimos
+        expedita veniam.
+      </p>
     </section>
-    <section class="desktop tablet mobile" id="Beef">
-      Beef
+    <section class="col-md-12 col-lg-12 col-12 col-sm-12 desktop" id="Beef">
       <p>
+        <span class="food d-flex justify-content-center">Beef</span>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia atque autem similique minus illo, quidem
         rerum! Tenetur necessitatibus similique illum deleniti voluptatibus unde dicta est, vitae eum maxime quasi
         voluptas?
         Mollitia iusto rerum, est voluptates qui aliquid veritatis praesentium ipsum deserunt incidunt, id alias
         quibusdam debitis culpa inventore, eaque ullam? Corrupti ipsam ex perferendis obcaecati reiciendis veniam eum
         officia commodi?
-        Eius necessitatibus non, tempore sunt placeat autem sed voluptates dignissimos omnis error obcaecati illum quia
+        Eius necessitatibus non, tempore sunt placeat autem sed voluptates dignissimos omnis error obcaecati illum
+        quia
         sequi impedit unde cum dolores dolore vero ipsa? Necessitatibus ipsum libero fugiat perferendis modi.
         Reprehenderit!
         Eos nostrum mollitia, vitae, perspiciatis ex voluptate rem at neque ipsa voluptatum iusto sequi architecto in
@@ -73,12 +90,30 @@
         voluptatum.
         Doloribus exercitationem voluptates quam, non nostrum sapiente earum tempora? Quos rem ipsa fugit, esse in
         quisquam mollitia illo voluptatem hic accusamus, molestias veritatis sint natus ea maxime velit excepturi
-        reprehenderit?</p>
+        reprehenderit?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia atque autem similique minus illo, quidem
+        rerum! Tenetur necessitatibus similique illum deleniti voluptatibus unde dicta est, vitae eum maxime quasi
+        voluptas?
+        Mollitia iusto rerum, est voluptates qui aliquid veritatis praesentium ipsum deserunt incidunt, id alias
+        quibusdam debitis culpa inventore, eaque ullam? Corrupti ipsam ex perferendis obcaecati reiciendis veniam eum
+        officia commodi?
+        Eius necessitatibus non, tempore sunt placeat autem sed voluptates dignissimos omnis error obcaecati illum
+        quia
+        sequi impedit unde cum dolores dolore vero ipsa? Necessitatibus ipsum libero fugiat perferendis modi.
+        Reprehenderit!
+        Eos nostrum mollitia, vitae, perspiciatis ex voluptate rem at neque ipsa voluptatum iusto sequi architecto in
+        sapiente reprehenderit, eveniet laborum vel culpa iure facilis corrupti nobis maiores sed? Accusantium,
+        voluptatum.
+        Doloribus exercitationem voluptates quam, non nostrum sapiente earum tempora? Quos rem ipsa fugit, esse in
+        quisquam mollitia illo voluptatem hic accusamus, molestias veritatis sint natus ea maxime velit excepturi
+        reprehenderit?
+      </p>
     </section>
-    <section class="desktop mobile" id="Sushi">
-      Sushi
+    <section class="col-md-12 col-lg-12 col-12 col-sm-12 desktop" id="Sushi">
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae fuga aspernatur sit corporis et aut hic odit eos
+        <span class="food d-flex justify-content-center">Sushi</span>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae fuga aspernatur sit corporis et aut hic odit
+        eos
         voluptates quisquam voluptatem repellat mollitia ab eligendi, impedit debitis atque illum illo!
         Quae fugit velit accusantium eligendi ducimus quisquam numquam rerum pariatur officiis atque! Eligendi totam
         voluptas maiores in mollitia accusantium. Libero magnam facere explicabo, dignissimos tempora fugit quasi non
@@ -87,14 +122,32 @@
         eligendi ut fugit aliquam soluta natus rerum repellat nesciunt delectus obcaecati nam fugiat. Nobis, magnam
         quaerat!
         Dolore voluptas repellat tenetur sed, quisquam autem explicabo. Sunt veritatis nihil consectetur, accusantium
-        dolor dolorem id beatae atque nulla culpa illum iste alias quaerat eum tempore voluptatum soluta accusamus qui?
+        dolor dolorem id beatae atque nulla culpa illum iste alias quaerat eum tempore voluptatum soluta accusamus
+        qui?
         Animi inventore ab incidunt dolorem cumque, id iste alias velit molestiae rem blanditiis sapiente, vitae error
-        natus quasi quos porro aperiam ad voluptas nobis laborum repellendus? Blanditiis similique quis error!</p>
+        natus quasi quos porro aperiam ad voluptas nobis laborum repellendus? Blanditiis similique quis error!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae fuga aspernatur sit corporis et aut hic odit
+        eos
+        voluptates quisquam voluptatem repellat mollitia ab eligendi, impedit debitis atque illum illo!
+        Quae fugit velit accusantium eligendi ducimus quisquam numquam rerum pariatur officiis atque! Eligendi totam
+        voluptas maiores in mollitia accusantium. Libero magnam facere explicabo, dignissimos tempora fugit quasi non
+        corrupti omnis!
+        Amet qui, voluptatibus a velit dolore molestias minima nostrum iusto laborum exercitationem quae itaque,
+        eligendi ut fugit aliquam soluta natus rerum repellat nesciunt delectus obcaecati nam fugiat. Nobis, magnam
+        quaerat!
+        Dolore voluptas repellat tenetur sed, quisquam autem explicabo. Sunt veritatis nihil consectetur, accusantium
+        dolor dolorem id beatae atque nulla culpa illum iste alias quaerat eum tempore voluptatum soluta accusamus
+        qui?
+        Animi inventore ab incidunt dolorem cumque, id iste alias velit molestiae rem blanditiis sapiente, vitae error
+        natus quasi quos porro aperiam ad voluptas nobis laborum repellendus? Blanditiis similique quis error!
+
+      </p>
     </section>
+    </div>
   </div>
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="jquery-3.5.1.min.js"></script>
-  <script src="bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
