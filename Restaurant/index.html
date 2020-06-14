@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Navbar-Menu</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/glyphicon.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Just an image -->
+  <nav class="navbar navbar-light navbar-expand-md" id="header">
+    <div class="container">
+      <div class="navbar-header">
+        <a href="index.html" class="float-left d-none d-lg-inline">
+          <div id="logo"></div>
+        </a>
+        <div class="navbar-brand">
+          <a href="index.html">
+            <h1>David Chu's China Bistro</h1>
+          </a>
+          <p>
+            <img src="images/star-k-logo.png" alt="Kosher certification">
+            <span>Kosher Certified</span>
+          </p>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="nav navbar-nav" id="nav-list">
+          <li class="nav-item">
+            <a href="menu-categories.html" class="nav-link">
+              <span class="glyphicon glyphicon-cutlery"></span><br class="d-none d-md-inline"> Menu</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <span class="glyphicon glyphicon-info-sign"></span><br class="d-none d-md-inline"> About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <span class="glyphicon glyphicon-certificate"></span><br class="d-none d-md-inline"> Awards</a>
+          </li>
+          <li class="nav-item d-none d-md-inline" id="phone">
+            <a href="tel:410-602-5008">
+              <span>410-602-5008</span></a>
+            <div>* We Deliver</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="call-btn" class="d-md-none">
+    <a class="btn" href="tel:410-602-5008">
+      <span class="glyphicon glyphicon-earphone"></span>
+      410-602-5008
+    </a>
+  </div>
+  <div id="xs-deliver" class="text-center d-md-none">* We Deliver</div>
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="jquery-3.5.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
