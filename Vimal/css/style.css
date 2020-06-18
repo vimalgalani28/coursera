@@ -75,3 +75,10 @@ body{
 		width: 50%;
 	  }
   }
+  @media(max-width : 575px){
+	#achivements, #Robocon {
+		width: 360px;
+		margin: 0 auto 15px;
+	}
+}
+  }
