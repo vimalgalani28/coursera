@@ -4,7 +4,9 @@
 body{
 	font-family: 'Oxygen', sans-serif;
 	font-size: 16px;
+	background-color: #F3EAE8;
 }
+
 .card-footer {
 	margin-top: 30px;
 	padding-top: 35px;
@@ -77,8 +79,7 @@ body{
   }
   @media(max-width : 575px){
 	#achivements, #Robocon {
-		width: 360px;
+		width: 280px;
 		margin: 0 auto 15px;
-	}
+	  }
 }
-  }
