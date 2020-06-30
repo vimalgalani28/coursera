@@ -26,8 +26,7 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
         element.insertHtml = html;
     }
     var loading = function (selector) {
-        var html = "<div class='text-center'>";
-        html += "<img src='images/ajax-loader.gif'></div>";
+        var html = "<img src='images/ajax-loader.gif' width='40px' height='40px' class='rounded mx-auto d-block'>";
         insertHtml(selector, html)
     }
     document.addEventListener("DOMContentLoaded", function (event) {
@@ -41,4 +40,3 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
             false);
     })
 })(window);
-
